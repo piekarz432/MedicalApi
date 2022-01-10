@@ -1,0 +1,9 @@
+POST http://localhost:8080/britemed/user
+Content-Type: application/json
+
+{
+  "username": "aaaa",
+  "password": "Admin12!",
+  "role": "PSYCHIATRIST",
+  "status": "ACTIVE"
+}

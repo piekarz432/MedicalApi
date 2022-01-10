@@ -1,0 +1,11 @@
+###
+POST http://localhost:8080/britemed/patient/1/visit
+Content-Type: application/json
+
+{
+  "date": "2022-12-09",
+  "time": "16:45",
+  "payment": "UNPAID",
+  "status": "ACTIVE",
+  "medicalProcedure": 1
+}

@@ -1,0 +1,10 @@
+POST http://localhost:8080/britemed/patient
+Content-Type: application/json
+
+{
+  "name": "A",
+  "surname": "aaaa",
+  "date": "1998-09-09",
+  "gender": "MALE",
+  "personalIdentityNumber": "56511312233"
+}
