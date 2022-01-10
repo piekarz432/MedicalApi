@@ -1,0 +1,25 @@
+package pl.com.medicalApi.service.dtos.user;
+
+import pl.com.medicalApi.repository.model.Status;
+
+public class PostUserDto extends UserDto {
+
+    private Status status;
+    private String password;
+
+    public Status getStatus() {
+        return status;
+    }
+
+    public void setStatus(Status status) {
+        this.status = status;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+}

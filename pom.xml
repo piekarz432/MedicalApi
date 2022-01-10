@@ -10,12 +10,12 @@
         <relativePath/>
     </parent>
 
-    <groupId>pl.com.britenet</groupId>
-    <artifactId>java-stepone</artifactId>
+    <groupId>pl.com.medicalApi</groupId>
+    <artifactId>medicalApi</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-    <name>java-stepone</name>
-    <description>Britemed</description>
+    <name>MedicalApi</name>
+    <description>Medical application</description>
 
     <properties>
         <java.version>11</java.version>
